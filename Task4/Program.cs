@@ -1,5 +1,6 @@
 ﻿int N = 0;
-Console.WriteLine("Введите число N: ");
+
+Console.Write("Введите число N: ");
 
 while(  !int.TryParse(Console.ReadLine(), out N ))
 {
